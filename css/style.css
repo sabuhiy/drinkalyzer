@@ -1,0 +1,127 @@
+/*
+Author: Sabuhi Yahyayev
+Name: drinkalyzer app
+Description: Online Alcohol Breath Tester
+Version: 1.0
+Author URI: http://www.sabuhiy.com
+*/
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #ECF0F1;
+	color: #2C3E50;
+}
+h4 {
+	color: #95A5A6;
+	padding: 15px 0  5px;
+}
+.boxContainer {
+	margin: 15px auto;
+	background: #fff;
+	width: 400px;
+	z-index: 0;
+}
+.boxHeader {
+	padding: 15px 0;
+	background: #34495E;
+	color: #fff;
+	text-align: center;
+}
+.boxHeader h1 {
+	margin: 0;
+}
+.boxBody {
+	padding: 20px;
+	background: #fff;
+}
+.pull {
+	margin-top: 25px;
+}
+.addYourDrink {
+	color: #E74C3C;
+	text-decoration: underline;
+}
+.selectMetric {
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+}
+.selectMetric li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.selectMetric li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.selectMetric > li {
+	display: inline-block;
+	padding: 10px;
+	background: #34495E;
+	cursor: pointer;
+}
+.selectMetric > .active {
+	background: #1ABC9C;
+}
+.btn-calc {
+	color: #fff;
+    background-color: #1ABC9C;
+}
+span.error {
+	display: block;
+	padding: 4px 5px;
+	margin-top: 4px;
+	background: #E74C3C;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.addYourDrink {
+	display: block;
+	margin: 10px 0;
+}
+
+.boxModal {
+    width:100%;
+    height:100%;
+    background-image: url(../images/modal-bg.png);
+    background-repeat: repeat;
+    z-index:100;
+    text-align:center;
+	position: fixed;
+    top: 0;
+    left: 0;  
+}
+.boxModalContent {
+    z-index:101;	
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+}
+.boxModalBadges {
+	margin: 20px 0;
+}
+.boxModalDisclaimer {
+	font-size: 10px;
+	color: #BDC3C7;
+}
+#close {
+    position:absolute;
+    background:url(../images/close.png) 0 0 no-repeat;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:-7px;
+    right:-7px;
+}
+
+
+
+
+
+
+
